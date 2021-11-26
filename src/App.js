@@ -7,7 +7,7 @@ import { GrAdd } from "react-icons/gr";
 import { GrClose } from "react-icons/gr";
 
 function App() {
-    const initialdata1=['study react']
+    const initialdata1=['Learn react']
     const initialdata2=['some random stuff']
     const [todo, setTodo] = useState();
     const [showTodo, setShowTodo] = useState([initialdata1,initialdata2]);
@@ -80,6 +80,7 @@ function App() {
                                         <h3 key={index}>{item}</h3>
                                         <div className="delete">
                                             <IconButton
+
                                                 sx={{ p: "10px" }}
                                                 aria-label="search"
                                                 onClick={() =>

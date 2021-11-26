@@ -43,11 +43,12 @@
 .todo-task{
   background-color: #3b4f64;
   border-radius: 10px;
-  border:2px solid white
+  border:2px solid white;
+
 }
 .todo-task h3{
   margin: 0;
-  color:aliceblue
+  color:aliceblue;
 }
 .delete{
   position: absolute;
@@ -58,6 +59,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 10rem !important;
+
 }
 .btn-close{
   color:white;
